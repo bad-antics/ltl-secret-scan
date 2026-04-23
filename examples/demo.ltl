@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_secret_scan
+
+import std::io
+use ltl_secret_scan as lib
+
+fn main() {
+    io::println("ltl_secret_scan demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
