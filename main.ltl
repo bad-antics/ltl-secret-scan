@@ -1,0 +1,15 @@
+// ltl-secret-scan/main.ltl
+//
+// Regex + entropy based secret scanner for git history.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-secret-scan v0.1.0")
+    io::println("Regex + entropy based secret scanner for git history.")
+    0
+}
